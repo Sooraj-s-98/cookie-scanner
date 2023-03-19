@@ -1,0 +1,13 @@
+[package]
+name = "file-download"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+webdriver = "0.45.0"
+tokio = { version = "1.16", features = ["full"] }
+thirtyfour = "0.31.0"
+
+
